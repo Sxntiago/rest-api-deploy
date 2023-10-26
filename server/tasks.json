@@ -1,0 +1,30 @@
+[
+  {
+    "id": "123",
+    "title": "Lavar baños",
+    "description": "Lavar los baños en la mañana",
+    "category": "Housework",
+    "completed": false
+  },
+  {
+    "id": "456",
+    "title": "NodeJs",
+    "description": "Estudiar nodejs",
+    "category": "Study",
+    "completed": false
+  },
+  {
+    "id": "789",
+    "title": "Valorant",
+    "description": "Subir a millan en valorant",
+    "category": "Entertainment",
+    "completed": false
+  },
+  {
+    "id": "012",
+    "title": "LOL",
+    "description": "Jugar lol con los panas",
+    "category": "Entertainment",
+    "completed": false
+  }
+]

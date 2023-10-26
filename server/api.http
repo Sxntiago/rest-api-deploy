@@ -1,0 +1,36 @@
+### Recuperar todas las tareas
+
+GET http://localhost:8080/tasks
+
+### Recuperar por ID
+
+GET http://localhost:8080/tasks/456
+
+### Recuperar por categoria
+
+GET http://localhost:8080/tasks?category=ocio
+
+### Crear una nueva tarea
+
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+    "title": "Odontologia",
+    "description": "Pedir cita con el odontologo",
+    "category": "Health"
+}
+
+### Actualizar una tarea
+
+PATCH http://localhost:8080/tasks/456
+Content-Type: application/json
+
+{
+    "title": "SQL",
+    "description": "Estudiar algun lenguaje de base de datos"
+}
+
+### Eliminar una tarea
+
+DELETE http://localhost:8080/tasks/456
